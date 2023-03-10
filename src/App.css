@@ -2,3 +2,50 @@
 header {
   padding: 40px 115px;
 }
+
+/* Hero */
+
+div.hero {
+  min-height: 500px;
+  padding: 20px 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: calc(25px + .5vw);
+}
+
+
+div.hero__text > h1 {
+  font-weight: 900;
+  font-size: calc(45px + 2vw);
+  line-height: 1.5;
+  /* identical to box height */
+
+
+  background: linear-gradient(267.3deg, #3462AE 28.15%, #EC5625 102.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+div.hero__text > p {
+  margin-top: 20px;
+  max-width: 550px;
+}
+
+div.hero__text > button {
+  margin-top: 40px;
+  padding: 1.2rem 2.5rem;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  background: #EED26D;
+  border-radius: 15px;
+  border: transparent;
+}
+
+div.hero > img {
+  width: calc(400px + 5vw);
+}
