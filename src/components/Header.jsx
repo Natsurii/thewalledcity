@@ -5,7 +5,7 @@ import headerImg from '/assets/header.png'
 function Header() {
 
     return(
-        <header>
+        <header className="sidepad">
             <img src={headerImg} alt="A multicolored logo of Intramuros" />
         </header>
     )

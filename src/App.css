@@ -1,13 +1,22 @@
 /* HEADER */
-header {
-  padding: 40px 115px;
+:root {
+  --sidepadding: 20px 115px;
+  --minsidepadding: 20px 40px;
+}
+
+.sidepad {
+  padding: var(--sidepadding);
+}
+
+@media only screen and (max-width: 768px) {
+  .sidepad {
+    padding: var(--minsidepadding);
+  }
 }
 
 /* Hero */
-
 div.hero {
   min-height: 500px;
-  padding: 20px 115px;
   display: flex;
   align-items: center;
   justify-content: center;
