@@ -4,6 +4,7 @@ import './App.css'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import Legend from './components/Legend.jsx'
+import Navmap from './components/Navmap'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Hero />
       <Legend />
+      <Navmap />  
     </>
   )
 }
