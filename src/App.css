@@ -2,6 +2,11 @@
 :root {
   --sidepadding: 20px 115px;
   --minsidepadding: 20px 40px;
+
+  --orange:#EC5625;
+  --yellow: #EED26D;
+  --blue: #3462AE;
+
 }
 
 .sidepad {
@@ -17,6 +22,7 @@
 /* Hero */
 div.hero {
   min-height: 500px;
+  margin-bottom: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +39,7 @@ div.hero__text > h1 {
   /* identical to box height */
 
 
-  background: linear-gradient(267.3deg, #3462AE 28.15%, #EC5625 102.02%);
+  background: linear-gradient(267.3deg, var(--blue) 28.15%, var(--orange) 102.02%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -51,11 +57,32 @@ div.hero__text > button {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.05em;
-  background: #EED26D;
+  background: var(--yellow);
   border-radius: 15px;
   border: transparent;
 }
 
 div.hero > img {
   width: calc(400px + 5vw);
+}
+
+/* Legend */
+
+.legend {
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: var(--orange);
+}
+
+.legend > h2 {
+  font-size: calc(32px + 0.5vw);
+  letter-spacing: 0.05em;
+}
+
+.legend > p {
+  text-align: justify;
+  padding: 10px 0;
+  font-size: calc(16px + .2vw);
+  letter-spacing: 0.05em;
 }
