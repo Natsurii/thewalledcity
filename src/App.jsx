@@ -5,7 +5,9 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Legend from './components/Legend'
 import Navmap from './components/Navmap'
+import CTA from './components/CTA'
 import Footer from './components/Footer'
+
 function App() {
 
   return (
@@ -14,7 +16,9 @@ function App() {
       <Hero />
       <Legend />
       <Navmap />
+      <CTA />
       <Footer />
+
     </>
   )
 }
