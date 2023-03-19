@@ -14,9 +14,19 @@
   padding: var(--sidepadding);
 }
 
+.rectcard {
+  min-width: 300px;
+  min-height: 400px;
+}
+
 @media only screen and (max-width: 768px) {
   .sidepad {
     padding: var(--minsidepadding);
+  }
+
+  .rectcard {
+    min-width: 400px;
+    min-height: 300px;
   }
 }
 
@@ -105,6 +115,39 @@ div.hero > img {
   text-align: center;
   letter-spacing: 0.07em;
 }
+
+/* Destination section*/
+.desti {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.dest__title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.07em;
+}
+
+/* DestCard */
+.destcard {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: linear-gradient(4.26deg, #3462AE 4.38%, rgba(52, 98, 174, 0) 84.86%), var(--img);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 24px;
+}
+
 
 /* CTA */
 .cta {
