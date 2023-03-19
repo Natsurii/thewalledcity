@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import Header from './components/Header.jsx'
-import Hero from './components/Hero.jsx'
-import Legend from './components/Legend.jsx'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Legend from './components/Legend'
 import Navmap from './components/Navmap'
-
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -13,7 +13,8 @@ function App() {
       <Header />
       <Hero />
       <Legend />
-      <Navmap />  
+      <Navmap />
+      <Footer />
     </>
   )
 }

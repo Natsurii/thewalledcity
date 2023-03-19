@@ -6,6 +6,7 @@
   --orange:#EC5625;
   --yellow: #EED26D;
   --blue: #3462AE;
+  --grey: #DED9E1;
 
 }
 
@@ -104,3 +105,16 @@ div.hero > img {
   text-align: center;
   letter-spacing: 0.07em;
 }
+
+/* Footer */
+footer {
+  background: var(--grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer > p {
+  font-size: 10px;
+}
+
