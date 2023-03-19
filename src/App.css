@@ -148,7 +148,43 @@ div.hero > img {
   border-radius: 24px;
 }
 
+/* Testimonials */
 
+.testimonial__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial__card {
+  max-width: 1280px;
+  padding: 25px 15px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.testimonial__card > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.testimonial__card > div > p#message {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.05em;
+}
+
+.testimonial__card > div > p#name {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.05em;
+}
 /* CTA */
 .cta {
   display: flex;
