@@ -106,6 +106,42 @@ div.hero > img {
   letter-spacing: 0.07em;
 }
 
+/* CTA */
+.cta {
+  display: flex;
+  padding: 60px 20px;
+  margin: var(--minsidepadding);
+  background: var(--blue);
+  border-radius: 25px;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cta > h2 {
+  font-weight: 600;
+  width: 60%;
+  font-size: 28px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.cta > button {
+  width: 250px;
+  height: 75px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  background: #EED06B;
+  border-radius: 15px;
+  border: transparent;
+}
+
+
 /* Footer */
 footer {
   background: var(--grey);
