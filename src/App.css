@@ -109,13 +109,13 @@ div.hero > img {
 /* CTA */
 .cta {
   display: flex;
-  padding: 60px 20px;
-  margin: var(--minsidepadding);
+  padding: 60px 50px;
+  margin: var(--sidepadding);
   background: var(--blue);
   border-radius: 25px;
   justify-content: center;
-  gap: 50px;
   align-items: center;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
