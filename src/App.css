@@ -47,7 +47,7 @@ h2 {
   border: transparent;
 }
 
-a {
+.button > a {
   text-decoration: none;
   color: black;
   font-weight: 600;
