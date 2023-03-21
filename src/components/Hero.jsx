@@ -7,18 +7,13 @@ function Hero(){
         <div className="hero sidepad">
             <div className="hero__text">
                 <motion.h1
-                initial={{ x: -1500 }}
-                animate={{ x: 0, y:0 }}
-                transition={{ ease: "easeOut", duration: 1.5 }}>
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ ease: "easeOut", duration: 2 }}>
                     The Walled City
                 </motion.h1>
                 
-                <motion.p
-                initial = {{ opacity:0 }}
-                animate = {{ opacity: 1 }}
-                transition = {{ ease: "easeOut", duration: 5 }}>
-                    Experience the magic of the historic walled city of Intramuros, where the past meets the present.
-                </motion.p>
+                <p> Experience the magic of the historic walled city of Intramuros, where the past meets the present.</p>
 
                 <motion.div className="button"
                  whileHover={{ scale: 1.2 }}>
