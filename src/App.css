@@ -18,6 +18,10 @@
   min-width: 300px;
   min-height: 400px;
 }
+.ctabox {
+  padding: 60px 50px;
+  margin: var(--sidepadding);
+}
 
 @media only screen and (max-width: 768px) {
   .sidepad {
@@ -25,8 +29,13 @@
   }
 
   .rectcard {
-    min-width: 400px;
-    min-height: 300px;
+    min-width: calc(400px / 1.2);
+    min-height: calc(300px / 1.2);
+  }
+  .cta {
+    text-align: center;
+    padding: 15px 10px;
+    margin: var(--minsidepadding);
   }
 }
 
@@ -200,8 +209,6 @@ div.hero > img {
 /* CTA */
 .cta {
   display: flex;
-  padding: 60px 50px;
-  margin: var(--sidepadding);
   background: var(--blue);
   border-radius: 25px;
   justify-content: center;
