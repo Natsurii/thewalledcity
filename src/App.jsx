@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { motion } from 'framer-motion'
 import './App.css'
 
 import Header from './components/Header'
@@ -18,6 +19,16 @@ import testimonialData from './data/testimonialdata.js'
 
 function App() {
 
+  const cardVariant = {
+    offscreen: {
+      x: -300,
+      scale: 0
+    },
+    onscreen: {
+      x: 0,
+      scale: 1
+    }
+  }
   const destdata = destData.map( (dest) => {
     return <DestCard {...dest} />
   })
