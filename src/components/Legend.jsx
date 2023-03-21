@@ -1,19 +1,4 @@
-import { delay, motion } from "framer-motion";
 function Legend() {
-
-    const pAnimationVariant = {
-        offscreen: {
-            x: -300
-          },
-          onscreen: {
-            x: 0,
-            transition: {
-              type: "spring",
-              bounce: 0.3,
-              duration: 1.5
-            }
-          }
-    }
 
     const paragraphs = [
         "Intramuros, also known as the Walled City, is a historic district located within Manila, Philippines. The city was built in the 16th century during the Spanish colonial period, and served as the center of political, religious, and military power in the Philippines for over three centuries. The walls were constructed by the Spanish conquistador Miguel Lopez de Legazpi and were completed in 1571. The walls were designed to protect the city from attacks by foreign invaders and to defend the Spanish colonial government against the local population.",
@@ -23,19 +8,10 @@ function Legend() {
 
     return (
         <div className="legend sidepad">
-            <motion.h2
-            initial = {{ opacity: 0 }}
-            whileInView ={{opacity: 1 }}
-            transition = {{ delay: 2 }}>
-                The Legend of Walled City
-            </motion.h2>
+            <h2> The Legend of Walled City</h2>
 
             {paragraphs.map((par) => {
-                    return (
-                        <motion.p initial="offscreen" whileInView="onscreen" viewport={{once: true}} variants={pAnimationVariant}>
-                            {par}
-                        </motion.p>
-                        )
+                    return ( <p>{par}</p> )
                     }
                 )       
             }
