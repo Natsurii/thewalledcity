@@ -9,8 +9,8 @@ function Navmap(){
            <h2>Navigational Map</h2>
            <motion.img 
            whileHover={{
-            scale: 1.25,
-            rotate: -3
+            scale: 1.2,
+            rotate: -2
            }}
            
            src={NavigationalMap} />
